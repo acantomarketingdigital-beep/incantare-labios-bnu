@@ -83,11 +83,11 @@ rápido, não para explicar a clínica.
 1. ✅ **Número de WhatsApp da Incantare BNU** — configurado em
    `script.js` (`WHATSAPP_NUMBER = '5547996335141'`).
 2. ✅ **Meta Pixel** — configurado em `index.html` (Pixel ID
-   `762018213673538`). **Atenção:** é o **mesmo Pixel ID** já usado na
-   unidade Joinville — ou seja, os eventos das duas unidades vão cair
-   no mesmo Pixel/conta de anúncios da Meta (só o GTM é separado por
-   unidade). Se isso não for intencional, avisar para trocar por um
-   Pixel próprio da BNU.
+   `762018213673538`). É o **mesmo Pixel ID** da unidade Joinville —
+   **proposital**: esse Pixel é dedicado ao procedimento
+   "preenchimento labial" e é compartilhado entre as unidades para dar
+   visão unificada da campanha no Meta Ads. Quem separa as unidades é
+   o GTM (item abaixo) e os campos `clinic`/`funnel` do dataLayer.
 3. ✅ **Google Tag Manager** — container `GTM-MMJMR47V` (próprio da
    unidade BNU, diferente do `GTM-PNSMTRVH` da Joinville) já instalado
    (script no `<head>` + `<noscript>` no `<body>`).
