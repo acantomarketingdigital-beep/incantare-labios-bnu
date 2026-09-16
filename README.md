@@ -95,10 +95,10 @@ rápido, não para explicar a clínica.
    adrianomarketing.com` como placeholder em `<link rel="canonical">`,
    `og:url`, `robots.txt` e `sitemap.xml`. Ajustar se o domínio final
    for outro.
-5. ⏳ **Verificação de domínio no Meta** — remover o comentário `TODO`
-   no `<head>` e inserir a metatag `facebook-domain-verification` real
-   depois de criar o domínio no Business Manager (mesmo processo já
-   feito na unidade Joinville).
+5. ✅ **Verificação de domínio no Meta** — metatag
+   `facebook-domain-verification` já inserida no `<head>`. Falta só
+   clicar em "Verify domain" no Business Manager depois do deploy
+   propagar (mesmo processo já feito na unidade Joinville).
 
 Os eventos do dataLayer (`lp_view`, `quiz_start`, `lead`,
 `whatsapp_contact` etc.) já existem independente do GTM/Pixel — assim
