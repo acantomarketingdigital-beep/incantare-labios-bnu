@@ -82,12 +82,15 @@ rápido, não para explicar a clínica.
 
 1. ✅ **Número de WhatsApp da Incantare BNU** — configurado em
    `script.js` (`WHATSAPP_NUMBER = '5547996335141'`).
-2. ⏳ **Meta Pixel** — ainda placeholder (`SEU_PIXEL_ID`, 2 ocorrências
-   em `index.html`). Criar um Pixel próprio da unidade BNU no Meta
-   Business Manager e substituir.
-3. ⏳ **Google Tag Manager** — ainda placeholder (`GTM-XXXXXXX`, 2
-   ocorrências em `index.html`: script no `<head>` + `<noscript>` no
-   `<body>`). Criar um container próprio da unidade BNU e substituir.
+2. ✅ **Meta Pixel** — configurado em `index.html` (Pixel ID
+   `762018213673538`). **Atenção:** é o **mesmo Pixel ID** já usado na
+   unidade Joinville — ou seja, os eventos das duas unidades vão cair
+   no mesmo Pixel/conta de anúncios da Meta (só o GTM é separado por
+   unidade). Se isso não for intencional, avisar para trocar por um
+   Pixel próprio da BNU.
+3. ✅ **Google Tag Manager** — container `GTM-MMJMR47V` (próprio da
+   unidade BNU, diferente do `GTM-PNSMTRVH` da Joinville) já instalado
+   (script no `<head>` + `<noscript>` no `<body>`).
 4. ⏳ **Domínio canônico** — usando `labios-incantare-blumenau.
    adrianomarketing.com` como placeholder em `<link rel="canonical">`,
    `og:url`, `robots.txt` e `sitemap.xml`. Ajustar se o domínio final
